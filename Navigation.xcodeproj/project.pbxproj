@@ -17,11 +17,8 @@
 		DF3F8EEC29117F9D008B9755 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8EEB29117F9D008B9755 /* InfoViewController.swift */; };
 		DF3F8EF129118211008B9755 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8EF029118211008B9755 /* ProfileHeaderView.swift */; };
 		DF3F8EF329118224008B9755 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8EF229118224008B9755 /* ProfileViewController.swift */; };
-		DF898E8E295D6A7700B77C89 /* StorageService.docc in Sources */ = {isa = PBXBuildFile; fileRef = DF898E8D295D6A7700B77C89 /* StorageService.docc */; };
-		DF898E8F295D6A7700B77C89 /* StorageService.h in Headers */ = {isa = PBXBuildFile; fileRef = DF898E8C295D6A7700B77C89 /* StorageService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF898E92295D6A7700B77C89 /* StorageService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF898E8A295D6A7700B77C89 /* StorageService.framework */; };
 		DF898E93295D6A7700B77C89 /* StorageService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF898E8A295D6A7700B77C89 /* StorageService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DF898E98295D6AE500B77C89 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3F8EED29117FB4008B9755 /* Post.swift */; };
 		DFAAA5FD292789090090B5C9 /* PostVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA5FC292789090090B5C9 /* PostVK.swift */; };
 		DFAAA5FF29278A290090B5C9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA5FE29278A290090B5C9 /* PostTableViewCell.swift */; };
 		DFAAA601292A04B90090B5C9 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA600292A04B90090B5C9 /* PhotosTableViewCell.swift */; };
@@ -68,12 +65,9 @@
 		DF3F8EE529117F4C008B9755 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DF3F8EE729117F65008B9755 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		DF3F8EEB29117F9D008B9755 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		DF3F8EED29117FB4008B9755 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		DF3F8EF029118211008B9755 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		DF3F8EF229118224008B9755 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DF898E8A295D6A7700B77C89 /* StorageService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StorageService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF898E8C295D6A7700B77C89 /* StorageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageService.h; sourceTree = "<group>"; };
-		DF898E8D295D6A7700B77C89 /* StorageService.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StorageService.docc; sourceTree = "<group>"; };
 		DFAAA5FC292789090090B5C9 /* PostVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVK.swift; sourceTree = "<group>"; };
 		DFAAA5FE29278A290090B5C9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		DFAAA600292A04B90090B5C9 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
@@ -107,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				DF3F8ECE29117EB0008B9755 /* Navigation */,
-				DF898E8B295D6A7700B77C89 /* StorageService */,
 				DF3F8ECD29117EB0008B9755 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,24 +149,6 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		DF898E8B295D6A7700B77C89 /* StorageService */ = {
-			isa = PBXGroup;
-			children = (
-				DF898E8C295D6A7700B77C89 /* StorageService.h */,
-				DF898E97295D6AC600B77C89 /* Data */,
-				DF898E8D295D6A7700B77C89 /* StorageService.docc */,
-			);
-			path = StorageService;
-			sourceTree = "<group>";
-		};
-		DF898E97295D6AC600B77C89 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				DF3F8EED29117FB4008B9755 /* Post.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -181,7 +156,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF898E8F295D6A7700B77C89 /* StorageService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF898E8E295D6A7700B77C89 /* StorageService.docc in Sources */,
-				DF898E98295D6AE500B77C89 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +425,6 @@
 		DF3F8EE129117EB5008B9755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -480,7 +451,6 @@
 		DF3F8EE229117EB5008B9755 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
